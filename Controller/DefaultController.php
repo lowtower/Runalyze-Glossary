@@ -13,7 +13,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class DefaultController extends AbstractController
 {
-    private function renderCorrectView($view, $request)
+    private function renderCorrectView(string $view, Request $request): Response
     {
         if ($request->isXmlHttpRequest()) {
             return $this->render($view, [
