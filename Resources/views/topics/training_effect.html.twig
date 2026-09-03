@@ -1,6 +1,6 @@
 {% extends "GlossaryBundle::_base.html.twig" %}
 
-{% block glossaryHeader %}
+{% block headline %}
     {% trans %}Training effect{% endtrans %}
 {% endblock %}
 
@@ -41,6 +41,48 @@
             {% trans %}Does only increase cardiorespiratory fitness if adequate recovery is applied afterwards.{% endtrans %}
         </li>
     </ul>
+
+    <h2>Aerob</h2>
+    <p class="text">
+        Beim aeroben Training Effect wird anhand der Herzfrequenz ermittelt, wie sich die Gesamt-Trainingsintensität auf Ihre aerobe Fitness auswirkt. 
+        Außerdem gibt der Wert an, ob das Training Ihren Fitnesslevel beibehalten oder verbessert hat. Gleichmäßige Trainings mit mäßiger Anstrengung oder Trainings mit längeren Intervallen (> 180 s) wirken sich positiv auf den aeroben Stoffwechsel aus und führen zu einem aeroben Training Effect.
+    </p>
+
+    <h2>Anaerob</h2>
+    <p class="text">
+        Beim anaeroben Training Effect werden die Herzfrequenz und die Geschwindigkeit (oder die Leistung) gemessen, um zu ermitteln, wie sich das Training auf Ihre Fähigkeit auswirkt, mit sehr hoher Intensität zu trainieren. 
+        Wiederholte Intervalle mit hoher Intensität und einer Dauer von 10 bis 120 Sekunden wirken sich besonders positiv auf Ihre anaerobe Fitness aus und führen zu einem anaeroben Training Effect.
+    </p>
+
+    <h2>Hauptnutzen (Benefit) der Aktivität für das Training</h2>
+    <p class="text">
+        Zusätzlich zu den aeroben und anaeroben Werten wird der Hauptnutzen der Aktivität ermittelt. Der Nutzen lässt sich in eine der folgenden Kategorien einteilen:
+        <p>
+            Anaerob
+            <ul>
+                <li><span style="color:#6439e4;">Sprint</span></li>
+                <li><span style="color:#6439e4;">Anaerober Bereich</span></li>
+            </ul>
+        </p>
+        <p>
+            Hoch Aerob
+            <ul>
+                <li><span style="color:#f27019;">VO2 Max</span>: Die Aktivität war intensiv genug, um einen Anreiz zur Verbesserung deines maximalen aeroben Bereichs zu liefern.</li>
+                <li><span style="color:#f27019;">Schwelle</span>: Die Aktivität verbessert deine muskuläre Ausdauer und deine Ermüdungswiderstandsfähigkeit, sodass du eine harte Anstrengung längere Zeit beibehalten kannst.</li>
+                <li><span style="color:#f27019;">Pace bzw. Tempo</span>: Die Aktivität verbessert deine Fähigkeit, eine mässige Pace für längere Zeit beizubehalten.</li>
+            </ul>
+        </p>
+        <p>
+            Leicht Aerob
+            <ul>
+                <li><span style="color:#0aa476;">Basis</span>: Die Aktivität hat die entsprechende Dauer und geringe Intensität, um deine Ausdauer zu verbessern.</li>
+                <li><span style="color:#0aa476;">Erholung</span>: Die Aktivität hat die entsprechende Dauer und geringe Intensität, um deine Ausdauer zu verbessern.</li>
+            </ul>
+        </p>
+
+        Wenn du ähnliche Aktivitäten durchführst, kannst du weiterhin an dir wichtigen Aspekten des Trainings arbeiten.
+        Die Aussage zum Hauptnutzen erklärt auch die Auswirkungen der Aktivität auf die Trainingsbelastung, einem Messwert deiner Anstrengung in den letzten 7 Tagen.
+    </p>
 
     {{ ref.referencesHead() }}
     {{ ref.singleReferenceTextWithLink("Firstbeat Feature: Training Effect (Aerobic)", "https://www.firstbeat.com/en/consumer-feature/training-effect-aerobic/", "firstbeat.com") }}
