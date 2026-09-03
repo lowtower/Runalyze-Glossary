@@ -33,7 +33,7 @@ class DefaultController extends AbstractController
      */
     public function indexAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/overview.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/overview.html.twig', $request);
     }
 
     /**
@@ -41,7 +41,7 @@ class DefaultController extends AbstractController
      */
     public function atlAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/atl.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/atl.html.twig', $request);
     }
 
     /**
@@ -49,7 +49,7 @@ class DefaultController extends AbstractController
      */
     public function ctlAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/ctl.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/ctl.html.twig', $request);
     }
 
     /**
@@ -57,7 +57,7 @@ class DefaultController extends AbstractController
      */
     public function tsbAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/tsb.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/tsb.html.twig', $request);
     }
 
     /**
@@ -65,7 +65,7 @@ class DefaultController extends AbstractController
      */
     public function easyTrimpAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/easy_trimp.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/easy_trimp.html.twig', $request);
     }
 
     /**
@@ -73,7 +73,7 @@ class DefaultController extends AbstractController
      */
     public function heatIndexAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/heat_index.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/heat_index.html.twig', $request);
     }
 
     /**
@@ -81,7 +81,7 @@ class DefaultController extends AbstractController
      */
     public function hrvAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/hrv.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/hrv.html.twig', $request);
     }
 
     /**
@@ -89,7 +89,7 @@ class DefaultController extends AbstractController
      */
     public function marathonShapeAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/marathon_shape.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/marathon_shape.html.twig', $request);
     }
 
     /**
@@ -97,7 +97,7 @@ class DefaultController extends AbstractController
      */
     public function maximumHeartRateAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/maximum_heart_rate.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/maximum_heart_rate.html.twig', $request);
     }
 
     /**
@@ -105,7 +105,7 @@ class DefaultController extends AbstractController
      */
     public function monotonyAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/monotony.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/monotony.html.twig', $request);
     }
 
     /**
@@ -113,7 +113,7 @@ class DefaultController extends AbstractController
      */
     public function performanceConditionAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/performance_condition.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/performance_condition.html.twig', $request);
     }
 
     /**
@@ -121,7 +121,7 @@ class DefaultController extends AbstractController
      */
     public function restingHeartRateAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/resting_heart_rate.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/resting_heart_rate.html.twig', $request);
     }
 
     /**
@@ -129,7 +129,7 @@ class DefaultController extends AbstractController
      */
     public function rpeAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/rpe.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/rpe.html.twig', $request);
     }
 
     /**
@@ -137,7 +137,7 @@ class DefaultController extends AbstractController
      */
     public function swolfAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/swolf.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/swolf.html.twig', $request);
     }
 
     /**
@@ -145,7 +145,7 @@ class DefaultController extends AbstractController
      */
     public function trainingEffectAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/training_effect.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/training_effect.html.twig', $request);
     }
 
     /**
@@ -153,7 +153,7 @@ class DefaultController extends AbstractController
      */
     public function trainingStrainAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/training_strain.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/training_strain.html.twig', $request);
     }
 
     /**
@@ -161,7 +161,7 @@ class DefaultController extends AbstractController
      */
     public function trimpAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/trimp.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/trimp.html.twig', $request);
     }
 
     /**
@@ -169,7 +169,7 @@ class DefaultController extends AbstractController
      */
     public function vo2maxAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/vo2max.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/vo2max.html.twig', $request);
     }
 
     /**
@@ -177,7 +177,7 @@ class DefaultController extends AbstractController
      */
     public function windchillAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/windchill.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/windchill.html.twig', $request);
     }
 
     /**
@@ -185,7 +185,7 @@ class DefaultController extends AbstractController
      */
     public function groundcontactAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/groundcontact.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/groundcontact.html.twig', $request);
     }
 
     /**
@@ -193,7 +193,7 @@ class DefaultController extends AbstractController
      */
     public function groundcontactTimeBalanceAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/groundcontact_balance.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/groundcontact_balance.html.twig', $request);
     }
 
     /**
@@ -201,7 +201,7 @@ class DefaultController extends AbstractController
      */
     public function verticalRatioAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/vertical_ratio.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/vertical_ratio.html.twig', $request);
     }
 
     /**
@@ -209,7 +209,7 @@ class DefaultController extends AbstractController
      */
     public function verticalOscillationAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/vertical_oscillation.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/vertical_oscillation.html.twig', $request);
     }
 
     /**
@@ -217,7 +217,7 @@ class DefaultController extends AbstractController
      */
     public function strideLengthAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/stride_length.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/stride_length.html.twig', $request);
     }
 
     /**
@@ -225,7 +225,7 @@ class DefaultController extends AbstractController
      */
     public function cadenceAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/cadence.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/cadence.html.twig', $request);
     }
 
     /**
@@ -233,7 +233,7 @@ class DefaultController extends AbstractController
      */
     public function runningEffectivenessAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/running_effectiveness.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/running_effectiveness.html.twig', $request);
     }
 
     /**
@@ -241,7 +241,7 @@ class DefaultController extends AbstractController
      */
     public function efficiencyIndexAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/efficiency_index.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/efficiency_index.html.twig', $request);
     }
 
     /**
@@ -249,7 +249,7 @@ class DefaultController extends AbstractController
      */
     public function selfEvaluationAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/self_evaluation.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/self_evaluation.html.twig', $request);
     }
 
     /**
@@ -257,7 +257,7 @@ class DefaultController extends AbstractController
      */
     public function runningDynamicsAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/running_dynamics.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/running_dynamics.html.twig', $request);
     }
 
     /**
@@ -265,7 +265,7 @@ class DefaultController extends AbstractController
      */
     public function respirationAction(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/respiration.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/respiration.html.twig', $request);
     }
 
     /**
@@ -273,7 +273,7 @@ class DefaultController extends AbstractController
      */
     public function trainingLoadPeak(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/training_load_peak.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/training_load_peak.html.twig', $request);
     }
 
     /**
@@ -281,6 +281,6 @@ class DefaultController extends AbstractController
      */
     public function detectionRunWalk(Request $request)
     {
-        return $this->renderCorrectView('@GlossaryBundle/topics/detection_run_walk.html.twig', $request);
+        return $this->renderCorrectView('@Glossary/topics/detection_run_walk.html.twig', $request);
     }
 }
